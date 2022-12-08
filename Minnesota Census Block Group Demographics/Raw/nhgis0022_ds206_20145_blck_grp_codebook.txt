@@ -1,0 +1,610 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0022_ds206_20145_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2010-2014
+Geographic level: Block Group (by State--County--Census Tract)
+Extent:           Minnesota
+Dataset:          2014 American Community Survey: 5-Year Data [2010-2014, Block Groups & Larger Areas]
+   NHGIS code:    2010_2014_ACS5a
+   NHGIS ID:      ds206
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone)
+   Universe:    White alone population 3 years and over
+   Source code: B14007A
+   NHGIS code:  ABCU
+ 
+2. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Black or African American Alone)
+   Universe:    Black or African American alone population 3 years and over
+   Source code: B14007B
+   NHGIS code:  ABCV
+ 
+3. School Enrollment by Detailed Level of School for the Population 3 Years and Over (American Indian and Alaska Native Alone)
+   Universe:    American Indian and Alaska Native alone population 3 years and over
+   Source code: B14007C
+   NHGIS code:  ABCW
+ 
+4. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Asian Alone)
+   Universe:    Asian alone population 3 years and over
+   Source code: B14007D
+   NHGIS code:  ABCX
+ 
+5. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Native Hawaiian and Other Pacific Islander Alone)
+   Universe:    Native Hawaiian and Other Pacific Islander alone population 3 years and over
+   Source code: B14007E
+   NHGIS code:  ABCY
+ 
+6. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Some Other Race Alone)
+   Universe:    Some Other Race alone population 3 years and over
+   Source code: B14007F
+   NHGIS code:  ABCZ
+ 
+7. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Two or More Races)
+   Universe:    Two or More Races population 3 years and over
+   Source code: B14007G
+   NHGIS code:  ABC0
+ 
+8. School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone, Not Hispanic or Latino)
+   Universe:    White alone, not Hispanic or Latino, population 3 years and over
+   Source code: B14007H
+   NHGIS code:  ABC1
+ 
+9. School Enrollment by Detailed Level of School for the Population 3 Years and Over (Hispanic or Latino)
+   Universe:    Hispanic or Latino population 3 years and over
+   Source code: B14007I
+   NHGIS code:  ABC2
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        MEMI:        Metropolitan/Micropolitan Indicator Flag
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2013-2017, 113th-114th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone)
+    Universe:    White alone population 3 years and over
+    Source code: B14007A
+    NHGIS code:  ABCU
+        ABCUE001:    Total
+        ABCUE002:    Enrolled in school
+        ABCUE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCUE004:    Enrolled in school: Enrolled in kindergarten
+        ABCUE005:    Enrolled in school: Enrolled in grade 1
+        ABCUE006:    Enrolled in school: Enrolled in grade 2
+        ABCUE007:    Enrolled in school: Enrolled in grade 3
+        ABCUE008:    Enrolled in school: Enrolled in grade 4
+        ABCUE009:    Enrolled in school: Enrolled in grade 5
+        ABCUE010:    Enrolled in school: Enrolled in grade 6
+        ABCUE011:    Enrolled in school: Enrolled in grade 7
+        ABCUE012:    Enrolled in school: Enrolled in grade 8
+        ABCUE013:    Enrolled in school: Enrolled in grade 9
+        ABCUE014:    Enrolled in school: Enrolled in grade 10
+        ABCUE015:    Enrolled in school: Enrolled in grade 11
+        ABCUE016:    Enrolled in school: Enrolled in grade 12
+        ABCUE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCUE018:    Enrolled in school: Graduate or professional school
+        ABCUE019:    Not enrolled in school
+ 
+    Table 2:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Black or African American Alone)
+    Universe:    Black or African American alone population 3 years and over
+    Source code: B14007B
+    NHGIS code:  ABCV
+        ABCVE001:    Total
+        ABCVE002:    Enrolled in school
+        ABCVE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCVE004:    Enrolled in school: Enrolled in kindergarten
+        ABCVE005:    Enrolled in school: Enrolled in grade 1
+        ABCVE006:    Enrolled in school: Enrolled in grade 2
+        ABCVE007:    Enrolled in school: Enrolled in grade 3
+        ABCVE008:    Enrolled in school: Enrolled in grade 4
+        ABCVE009:    Enrolled in school: Enrolled in grade 5
+        ABCVE010:    Enrolled in school: Enrolled in grade 6
+        ABCVE011:    Enrolled in school: Enrolled in grade 7
+        ABCVE012:    Enrolled in school: Enrolled in grade 8
+        ABCVE013:    Enrolled in school: Enrolled in grade 9
+        ABCVE014:    Enrolled in school: Enrolled in grade 10
+        ABCVE015:    Enrolled in school: Enrolled in grade 11
+        ABCVE016:    Enrolled in school: Enrolled in grade 12
+        ABCVE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCVE018:    Enrolled in school: Graduate or professional school
+        ABCVE019:    Not enrolled in school
+ 
+    Table 3:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (American Indian and Alaska Native Alone)
+    Universe:    American Indian and Alaska Native alone population 3 years and over
+    Source code: B14007C
+    NHGIS code:  ABCW
+        ABCWE001:    Total
+        ABCWE002:    Enrolled in school
+        ABCWE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCWE004:    Enrolled in school: Enrolled in kindergarten
+        ABCWE005:    Enrolled in school: Enrolled in grade 1
+        ABCWE006:    Enrolled in school: Enrolled in grade 2
+        ABCWE007:    Enrolled in school: Enrolled in grade 3
+        ABCWE008:    Enrolled in school: Enrolled in grade 4
+        ABCWE009:    Enrolled in school: Enrolled in grade 5
+        ABCWE010:    Enrolled in school: Enrolled in grade 6
+        ABCWE011:    Enrolled in school: Enrolled in grade 7
+        ABCWE012:    Enrolled in school: Enrolled in grade 8
+        ABCWE013:    Enrolled in school: Enrolled in grade 9
+        ABCWE014:    Enrolled in school: Enrolled in grade 10
+        ABCWE015:    Enrolled in school: Enrolled in grade 11
+        ABCWE016:    Enrolled in school: Enrolled in grade 12
+        ABCWE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCWE018:    Enrolled in school: Graduate or professional school
+        ABCWE019:    Not enrolled in school
+ 
+    Table 4:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Asian Alone)
+    Universe:    Asian alone population 3 years and over
+    Source code: B14007D
+    NHGIS code:  ABCX
+        ABCXE001:    Total
+        ABCXE002:    Enrolled in school
+        ABCXE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCXE004:    Enrolled in school: Enrolled in kindergarten
+        ABCXE005:    Enrolled in school: Enrolled in grade 1
+        ABCXE006:    Enrolled in school: Enrolled in grade 2
+        ABCXE007:    Enrolled in school: Enrolled in grade 3
+        ABCXE008:    Enrolled in school: Enrolled in grade 4
+        ABCXE009:    Enrolled in school: Enrolled in grade 5
+        ABCXE010:    Enrolled in school: Enrolled in grade 6
+        ABCXE011:    Enrolled in school: Enrolled in grade 7
+        ABCXE012:    Enrolled in school: Enrolled in grade 8
+        ABCXE013:    Enrolled in school: Enrolled in grade 9
+        ABCXE014:    Enrolled in school: Enrolled in grade 10
+        ABCXE015:    Enrolled in school: Enrolled in grade 11
+        ABCXE016:    Enrolled in school: Enrolled in grade 12
+        ABCXE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCXE018:    Enrolled in school: Graduate or professional school
+        ABCXE019:    Not enrolled in school
+ 
+    Table 5:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    Native Hawaiian and Other Pacific Islander alone population 3 years and over
+    Source code: B14007E
+    NHGIS code:  ABCY
+        ABCYE001:    Total
+        ABCYE002:    Enrolled in school
+        ABCYE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCYE004:    Enrolled in school: Enrolled in kindergarten
+        ABCYE005:    Enrolled in school: Enrolled in grade 1
+        ABCYE006:    Enrolled in school: Enrolled in grade 2
+        ABCYE007:    Enrolled in school: Enrolled in grade 3
+        ABCYE008:    Enrolled in school: Enrolled in grade 4
+        ABCYE009:    Enrolled in school: Enrolled in grade 5
+        ABCYE010:    Enrolled in school: Enrolled in grade 6
+        ABCYE011:    Enrolled in school: Enrolled in grade 7
+        ABCYE012:    Enrolled in school: Enrolled in grade 8
+        ABCYE013:    Enrolled in school: Enrolled in grade 9
+        ABCYE014:    Enrolled in school: Enrolled in grade 10
+        ABCYE015:    Enrolled in school: Enrolled in grade 11
+        ABCYE016:    Enrolled in school: Enrolled in grade 12
+        ABCYE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCYE018:    Enrolled in school: Graduate or professional school
+        ABCYE019:    Not enrolled in school
+ 
+    Table 6:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Some Other Race Alone)
+    Universe:    Some Other Race alone population 3 years and over
+    Source code: B14007F
+    NHGIS code:  ABCZ
+        ABCZE001:    Total
+        ABCZE002:    Enrolled in school
+        ABCZE003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCZE004:    Enrolled in school: Enrolled in kindergarten
+        ABCZE005:    Enrolled in school: Enrolled in grade 1
+        ABCZE006:    Enrolled in school: Enrolled in grade 2
+        ABCZE007:    Enrolled in school: Enrolled in grade 3
+        ABCZE008:    Enrolled in school: Enrolled in grade 4
+        ABCZE009:    Enrolled in school: Enrolled in grade 5
+        ABCZE010:    Enrolled in school: Enrolled in grade 6
+        ABCZE011:    Enrolled in school: Enrolled in grade 7
+        ABCZE012:    Enrolled in school: Enrolled in grade 8
+        ABCZE013:    Enrolled in school: Enrolled in grade 9
+        ABCZE014:    Enrolled in school: Enrolled in grade 10
+        ABCZE015:    Enrolled in school: Enrolled in grade 11
+        ABCZE016:    Enrolled in school: Enrolled in grade 12
+        ABCZE017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCZE018:    Enrolled in school: Graduate or professional school
+        ABCZE019:    Not enrolled in school
+ 
+    Table 7:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Two or More Races)
+    Universe:    Two or More Races population 3 years and over
+    Source code: B14007G
+    NHGIS code:  ABC0
+        ABC0E001:    Total
+        ABC0E002:    Enrolled in school
+        ABC0E003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC0E004:    Enrolled in school: Enrolled in kindergarten
+        ABC0E005:    Enrolled in school: Enrolled in grade 1
+        ABC0E006:    Enrolled in school: Enrolled in grade 2
+        ABC0E007:    Enrolled in school: Enrolled in grade 3
+        ABC0E008:    Enrolled in school: Enrolled in grade 4
+        ABC0E009:    Enrolled in school: Enrolled in grade 5
+        ABC0E010:    Enrolled in school: Enrolled in grade 6
+        ABC0E011:    Enrolled in school: Enrolled in grade 7
+        ABC0E012:    Enrolled in school: Enrolled in grade 8
+        ABC0E013:    Enrolled in school: Enrolled in grade 9
+        ABC0E014:    Enrolled in school: Enrolled in grade 10
+        ABC0E015:    Enrolled in school: Enrolled in grade 11
+        ABC0E016:    Enrolled in school: Enrolled in grade 12
+        ABC0E017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC0E018:    Enrolled in school: Graduate or professional school
+        ABC0E019:    Not enrolled in school
+ 
+    Table 8:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone, Not Hispanic or Latino)
+    Universe:    White alone, not Hispanic or Latino, population 3 years and over
+    Source code: B14007H
+    NHGIS code:  ABC1
+        ABC1E001:    Total
+        ABC1E002:    Enrolled in school
+        ABC1E003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC1E004:    Enrolled in school: Enrolled in kindergarten
+        ABC1E005:    Enrolled in school: Enrolled in grade 1
+        ABC1E006:    Enrolled in school: Enrolled in grade 2
+        ABC1E007:    Enrolled in school: Enrolled in grade 3
+        ABC1E008:    Enrolled in school: Enrolled in grade 4
+        ABC1E009:    Enrolled in school: Enrolled in grade 5
+        ABC1E010:    Enrolled in school: Enrolled in grade 6
+        ABC1E011:    Enrolled in school: Enrolled in grade 7
+        ABC1E012:    Enrolled in school: Enrolled in grade 8
+        ABC1E013:    Enrolled in school: Enrolled in grade 9
+        ABC1E014:    Enrolled in school: Enrolled in grade 10
+        ABC1E015:    Enrolled in school: Enrolled in grade 11
+        ABC1E016:    Enrolled in school: Enrolled in grade 12
+        ABC1E017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC1E018:    Enrolled in school: Graduate or professional school
+        ABC1E019:    Not enrolled in school
+ 
+    Table 9:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Hispanic or Latino)
+    Universe:    Hispanic or Latino population 3 years and over
+    Source code: B14007I
+    NHGIS code:  ABC2
+        ABC2E001:    Total
+        ABC2E002:    Enrolled in school
+        ABC2E003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC2E004:    Enrolled in school: Enrolled in kindergarten
+        ABC2E005:    Enrolled in school: Enrolled in grade 1
+        ABC2E006:    Enrolled in school: Enrolled in grade 2
+        ABC2E007:    Enrolled in school: Enrolled in grade 3
+        ABC2E008:    Enrolled in school: Enrolled in grade 4
+        ABC2E009:    Enrolled in school: Enrolled in grade 5
+        ABC2E010:    Enrolled in school: Enrolled in grade 6
+        ABC2E011:    Enrolled in school: Enrolled in grade 7
+        ABC2E012:    Enrolled in school: Enrolled in grade 8
+        ABC2E013:    Enrolled in school: Enrolled in grade 9
+        ABC2E014:    Enrolled in school: Enrolled in grade 10
+        ABC2E015:    Enrolled in school: Enrolled in grade 11
+        ABC2E016:    Enrolled in school: Enrolled in grade 12
+        ABC2E017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC2E018:    Enrolled in school: Graduate or professional school
+        ABC2E019:    Not enrolled in school
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone)
+    Universe:    White alone population 3 years and over
+    Source code: B14007A
+    NHGIS code:  ABCU
+        ABCUM001:    Total
+        ABCUM002:    Enrolled in school
+        ABCUM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCUM004:    Enrolled in school: Enrolled in kindergarten
+        ABCUM005:    Enrolled in school: Enrolled in grade 1
+        ABCUM006:    Enrolled in school: Enrolled in grade 2
+        ABCUM007:    Enrolled in school: Enrolled in grade 3
+        ABCUM008:    Enrolled in school: Enrolled in grade 4
+        ABCUM009:    Enrolled in school: Enrolled in grade 5
+        ABCUM010:    Enrolled in school: Enrolled in grade 6
+        ABCUM011:    Enrolled in school: Enrolled in grade 7
+        ABCUM012:    Enrolled in school: Enrolled in grade 8
+        ABCUM013:    Enrolled in school: Enrolled in grade 9
+        ABCUM014:    Enrolled in school: Enrolled in grade 10
+        ABCUM015:    Enrolled in school: Enrolled in grade 11
+        ABCUM016:    Enrolled in school: Enrolled in grade 12
+        ABCUM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCUM018:    Enrolled in school: Graduate or professional school
+        ABCUM019:    Not enrolled in school
+ 
+    Table 2:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Black or African American Alone)
+    Universe:    Black or African American alone population 3 years and over
+    Source code: B14007B
+    NHGIS code:  ABCV
+        ABCVM001:    Total
+        ABCVM002:    Enrolled in school
+        ABCVM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCVM004:    Enrolled in school: Enrolled in kindergarten
+        ABCVM005:    Enrolled in school: Enrolled in grade 1
+        ABCVM006:    Enrolled in school: Enrolled in grade 2
+        ABCVM007:    Enrolled in school: Enrolled in grade 3
+        ABCVM008:    Enrolled in school: Enrolled in grade 4
+        ABCVM009:    Enrolled in school: Enrolled in grade 5
+        ABCVM010:    Enrolled in school: Enrolled in grade 6
+        ABCVM011:    Enrolled in school: Enrolled in grade 7
+        ABCVM012:    Enrolled in school: Enrolled in grade 8
+        ABCVM013:    Enrolled in school: Enrolled in grade 9
+        ABCVM014:    Enrolled in school: Enrolled in grade 10
+        ABCVM015:    Enrolled in school: Enrolled in grade 11
+        ABCVM016:    Enrolled in school: Enrolled in grade 12
+        ABCVM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCVM018:    Enrolled in school: Graduate or professional school
+        ABCVM019:    Not enrolled in school
+ 
+    Table 3:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (American Indian and Alaska Native Alone)
+    Universe:    American Indian and Alaska Native alone population 3 years and over
+    Source code: B14007C
+    NHGIS code:  ABCW
+        ABCWM001:    Total
+        ABCWM002:    Enrolled in school
+        ABCWM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCWM004:    Enrolled in school: Enrolled in kindergarten
+        ABCWM005:    Enrolled in school: Enrolled in grade 1
+        ABCWM006:    Enrolled in school: Enrolled in grade 2
+        ABCWM007:    Enrolled in school: Enrolled in grade 3
+        ABCWM008:    Enrolled in school: Enrolled in grade 4
+        ABCWM009:    Enrolled in school: Enrolled in grade 5
+        ABCWM010:    Enrolled in school: Enrolled in grade 6
+        ABCWM011:    Enrolled in school: Enrolled in grade 7
+        ABCWM012:    Enrolled in school: Enrolled in grade 8
+        ABCWM013:    Enrolled in school: Enrolled in grade 9
+        ABCWM014:    Enrolled in school: Enrolled in grade 10
+        ABCWM015:    Enrolled in school: Enrolled in grade 11
+        ABCWM016:    Enrolled in school: Enrolled in grade 12
+        ABCWM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCWM018:    Enrolled in school: Graduate or professional school
+        ABCWM019:    Not enrolled in school
+ 
+    Table 4:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Asian Alone)
+    Universe:    Asian alone population 3 years and over
+    Source code: B14007D
+    NHGIS code:  ABCX
+        ABCXM001:    Total
+        ABCXM002:    Enrolled in school
+        ABCXM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCXM004:    Enrolled in school: Enrolled in kindergarten
+        ABCXM005:    Enrolled in school: Enrolled in grade 1
+        ABCXM006:    Enrolled in school: Enrolled in grade 2
+        ABCXM007:    Enrolled in school: Enrolled in grade 3
+        ABCXM008:    Enrolled in school: Enrolled in grade 4
+        ABCXM009:    Enrolled in school: Enrolled in grade 5
+        ABCXM010:    Enrolled in school: Enrolled in grade 6
+        ABCXM011:    Enrolled in school: Enrolled in grade 7
+        ABCXM012:    Enrolled in school: Enrolled in grade 8
+        ABCXM013:    Enrolled in school: Enrolled in grade 9
+        ABCXM014:    Enrolled in school: Enrolled in grade 10
+        ABCXM015:    Enrolled in school: Enrolled in grade 11
+        ABCXM016:    Enrolled in school: Enrolled in grade 12
+        ABCXM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCXM018:    Enrolled in school: Graduate or professional school
+        ABCXM019:    Not enrolled in school
+ 
+    Table 5:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Native Hawaiian and Other Pacific Islander Alone)
+    Universe:    Native Hawaiian and Other Pacific Islander alone population 3 years and over
+    Source code: B14007E
+    NHGIS code:  ABCY
+        ABCYM001:    Total
+        ABCYM002:    Enrolled in school
+        ABCYM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCYM004:    Enrolled in school: Enrolled in kindergarten
+        ABCYM005:    Enrolled in school: Enrolled in grade 1
+        ABCYM006:    Enrolled in school: Enrolled in grade 2
+        ABCYM007:    Enrolled in school: Enrolled in grade 3
+        ABCYM008:    Enrolled in school: Enrolled in grade 4
+        ABCYM009:    Enrolled in school: Enrolled in grade 5
+        ABCYM010:    Enrolled in school: Enrolled in grade 6
+        ABCYM011:    Enrolled in school: Enrolled in grade 7
+        ABCYM012:    Enrolled in school: Enrolled in grade 8
+        ABCYM013:    Enrolled in school: Enrolled in grade 9
+        ABCYM014:    Enrolled in school: Enrolled in grade 10
+        ABCYM015:    Enrolled in school: Enrolled in grade 11
+        ABCYM016:    Enrolled in school: Enrolled in grade 12
+        ABCYM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCYM018:    Enrolled in school: Graduate or professional school
+        ABCYM019:    Not enrolled in school
+ 
+    Table 6:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Some Other Race Alone)
+    Universe:    Some Other Race alone population 3 years and over
+    Source code: B14007F
+    NHGIS code:  ABCZ
+        ABCZM001:    Total
+        ABCZM002:    Enrolled in school
+        ABCZM003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABCZM004:    Enrolled in school: Enrolled in kindergarten
+        ABCZM005:    Enrolled in school: Enrolled in grade 1
+        ABCZM006:    Enrolled in school: Enrolled in grade 2
+        ABCZM007:    Enrolled in school: Enrolled in grade 3
+        ABCZM008:    Enrolled in school: Enrolled in grade 4
+        ABCZM009:    Enrolled in school: Enrolled in grade 5
+        ABCZM010:    Enrolled in school: Enrolled in grade 6
+        ABCZM011:    Enrolled in school: Enrolled in grade 7
+        ABCZM012:    Enrolled in school: Enrolled in grade 8
+        ABCZM013:    Enrolled in school: Enrolled in grade 9
+        ABCZM014:    Enrolled in school: Enrolled in grade 10
+        ABCZM015:    Enrolled in school: Enrolled in grade 11
+        ABCZM016:    Enrolled in school: Enrolled in grade 12
+        ABCZM017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABCZM018:    Enrolled in school: Graduate or professional school
+        ABCZM019:    Not enrolled in school
+ 
+    Table 7:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Two or More Races)
+    Universe:    Two or More Races population 3 years and over
+    Source code: B14007G
+    NHGIS code:  ABC0
+        ABC0M001:    Total
+        ABC0M002:    Enrolled in school
+        ABC0M003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC0M004:    Enrolled in school: Enrolled in kindergarten
+        ABC0M005:    Enrolled in school: Enrolled in grade 1
+        ABC0M006:    Enrolled in school: Enrolled in grade 2
+        ABC0M007:    Enrolled in school: Enrolled in grade 3
+        ABC0M008:    Enrolled in school: Enrolled in grade 4
+        ABC0M009:    Enrolled in school: Enrolled in grade 5
+        ABC0M010:    Enrolled in school: Enrolled in grade 6
+        ABC0M011:    Enrolled in school: Enrolled in grade 7
+        ABC0M012:    Enrolled in school: Enrolled in grade 8
+        ABC0M013:    Enrolled in school: Enrolled in grade 9
+        ABC0M014:    Enrolled in school: Enrolled in grade 10
+        ABC0M015:    Enrolled in school: Enrolled in grade 11
+        ABC0M016:    Enrolled in school: Enrolled in grade 12
+        ABC0M017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC0M018:    Enrolled in school: Graduate or professional school
+        ABC0M019:    Not enrolled in school
+ 
+    Table 8:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (White Alone, Not Hispanic or Latino)
+    Universe:    White alone, not Hispanic or Latino, population 3 years and over
+    Source code: B14007H
+    NHGIS code:  ABC1
+        ABC1M001:    Total
+        ABC1M002:    Enrolled in school
+        ABC1M003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC1M004:    Enrolled in school: Enrolled in kindergarten
+        ABC1M005:    Enrolled in school: Enrolled in grade 1
+        ABC1M006:    Enrolled in school: Enrolled in grade 2
+        ABC1M007:    Enrolled in school: Enrolled in grade 3
+        ABC1M008:    Enrolled in school: Enrolled in grade 4
+        ABC1M009:    Enrolled in school: Enrolled in grade 5
+        ABC1M010:    Enrolled in school: Enrolled in grade 6
+        ABC1M011:    Enrolled in school: Enrolled in grade 7
+        ABC1M012:    Enrolled in school: Enrolled in grade 8
+        ABC1M013:    Enrolled in school: Enrolled in grade 9
+        ABC1M014:    Enrolled in school: Enrolled in grade 10
+        ABC1M015:    Enrolled in school: Enrolled in grade 11
+        ABC1M016:    Enrolled in school: Enrolled in grade 12
+        ABC1M017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC1M018:    Enrolled in school: Graduate or professional school
+        ABC1M019:    Not enrolled in school
+ 
+    Table 9:     School Enrollment by Detailed Level of School for the Population 3 Years and Over (Hispanic or Latino)
+    Universe:    Hispanic or Latino population 3 years and over
+    Source code: B14007I
+    NHGIS code:  ABC2
+        ABC2M001:    Total
+        ABC2M002:    Enrolled in school
+        ABC2M003:    Enrolled in school: Enrolled in nursery school, preschool
+        ABC2M004:    Enrolled in school: Enrolled in kindergarten
+        ABC2M005:    Enrolled in school: Enrolled in grade 1
+        ABC2M006:    Enrolled in school: Enrolled in grade 2
+        ABC2M007:    Enrolled in school: Enrolled in grade 3
+        ABC2M008:    Enrolled in school: Enrolled in grade 4
+        ABC2M009:    Enrolled in school: Enrolled in grade 5
+        ABC2M010:    Enrolled in school: Enrolled in grade 6
+        ABC2M011:    Enrolled in school: Enrolled in grade 7
+        ABC2M012:    Enrolled in school: Enrolled in grade 8
+        ABC2M013:    Enrolled in school: Enrolled in grade 9
+        ABC2M014:    Enrolled in school: Enrolled in grade 10
+        ABC2M015:    Enrolled in school: Enrolled in grade 11
+        ABC2M016:    Enrolled in school: Enrolled in grade 12
+        ABC2M017:    Enrolled in school: Enrolled in college, undergraduate years
+        ABC2M018:    Enrolled in school: Graduate or professional school
+        ABC2M019:    Not enrolled in school
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
